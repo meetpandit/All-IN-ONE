@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="irfan.allapp.MainActivity">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="FACEBOOK"
+                android:textStyle="bold"
+                android:background="@color/colorAccent"
+                android:onClick="dothis"
+                android:id="@+id/facebook"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YOUTUBE"
+                android:background="@color/colorAccent"
+                android:onClick="dothis"
+                android:id="@+id/youtube"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dothis"
+                android:text="GOOGLE"
+                android:background="@color/colorAccent"
+                android:id="@+id/ucbrowser"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PAYTM"
+                android:onClick="dothis"
+                android:background="@color/colorAccent"
+                android:id="@+id/paytm"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dothis"
+                android:text="IRCTC"
+                android:background="@color/colorAccent"
+                android:id="@+id/irctc"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dothis"
+                android:background="@color/colorAccent"
+                android:text="MUSIC"
+                android:id="@+id/music"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dothis"
+                android:text="GOOGLE MAP"
+                android:background="@color/colorAccent"
+                android:id="@+id/google"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dothis"
+                android:text="LPU UMS"
+                android:background="@color/colorAccent"
+                android:id="@+id/ums"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:onClick="dothis"
+                android:text="HOT STAR"
+                android:id="@+id/hotstar"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:onClick="dothis"
+                android:text="GMAIL"
+                android:id="@+id/gmail"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="465dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/frag">
+    </FrameLayout>
+</LinearLayout>
+</LinearLayout>
